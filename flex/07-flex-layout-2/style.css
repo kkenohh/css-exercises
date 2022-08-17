@@ -32,14 +32,11 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 100vh;
 }
 
 .sidebar {
   margin: 0;
   padding: 0;
-  height: 100%;
   width: 300px;
   flex-shrink: 0;
 }
@@ -61,20 +58,19 @@ a {
 
 .content-con {
   display: flex;
+  flex: 1;
 }
 
 .card-con {
   padding: 32px;
   display: flex;
-  columns: 3;
   flex-wrap: wrap;
-  gap: 25px;
 }
 
 .card {
-  width: 250px;
-  height: 300px;
-  padding: 20px;
+  width: 300px;
+  padding: 16px;
+  margin: 16px;
 }
 
 .header {
@@ -84,7 +80,6 @@ a {
   font-size: 32px;
   font-weight: 900;
   padding-left: 16px;
-  flex-shrink: 0;
 }
 
 .footer {
